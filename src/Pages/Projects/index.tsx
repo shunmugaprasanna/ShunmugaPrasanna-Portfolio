@@ -15,14 +15,16 @@ const Project = () => {
         <Cards
           className="mb-4"
           title="JIO"
-          description="I created this personal project in order to show how to create an interface in Figma using a portfolio as an example."
+          description="Jio Tesseract, India's biggest mixed reality company, is an MIT Media Lab spin-off and a public subsidiary of Reliance Industries Limited.
+          We aim to democratize mixed reality by bringing meaningful AR/VR content and affordable devices for consumers to experience the power of the next wave of computing."
           src="https://tesseract.in/0f90e3e08da7dfb6c541c8985a331fab.svg"
         />
         <Cards
           className="mb-4"
           title="Expenso"
           imagebg="bg-[#242424]"
-          description="I created this personal project in order to show how to create an interface in Figma using a portfolio as an example."
+          description="Expenso app allows you to monitor and categorize your expenses across different bank and investment accounts and credit cards. Some of these apps also offer 
+          budgeting tools, credit monitoring, mileage tracking, receipt keeping, and advice to grow your net worth."
           src={ExpensoIcon}
         />
         <Cards
@@ -31,7 +33,7 @@ const Project = () => {
           imagebg="bg-white"
           // src="https://i.pinimg.com/originals/aa/88/6d/aa886d2003d09d9e049d3acc88b327fc.jpg"
           src={FidioIcon}
-          description="I created this personal project in order to show how to create an interface in Figma using a portfolio as an example."
+          description="Machine analytics software"
         />
       </div>
     </div>
