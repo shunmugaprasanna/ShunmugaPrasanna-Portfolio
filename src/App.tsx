@@ -3,7 +3,6 @@ import Header from "./Components/Header";
 import Aboutme from "./Pages/Aboutme";
 import Hero from "./Pages/Hero";
 import Project from "./Pages/Projects";
-import { HeroIcon } from "./assets/Images";
 
 const App = () => {
   return (
