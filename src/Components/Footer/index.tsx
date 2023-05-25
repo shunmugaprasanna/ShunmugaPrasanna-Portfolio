@@ -23,11 +23,11 @@ const Footer = () => {
       {/* Insta and Linked Icon */}
       <div className="flex gap-5 flex-wrap items-center justify-center">
         <a
-          // href="https://ig.me/1TlX1BZZyTziTVB"
-          // target="_blank"
-          className="font-semibold no-underline flex justify-center items-center gap-2"
+          href="https://instagram.com/prasannakannan97/"
+          target="_blank"
+          className="font-semibold no-underline flex justify-center items-center gap-2 cursor-pointer"
         >
-          <InstagramIcon fill="#6c6b6b" className="h-6 w-6" />
+          <InstagramIcon fill="#6c6b6b" className="h-6 w-6 cursor-pointer" />
         </a>
         <a
           href="https://www.linkedin.com/in/shunmuga-prasanna-81593b214/"
@@ -38,6 +38,7 @@ const Footer = () => {
         </a>
         <a
           href="mailto:shunmugaprasanna.k@flyerssoft.com"
+          target="_blank"
           className="font-semibold no-underline text-lg text-[#747272] flex justify-center items-center gap-2"
         >
           <EmailIcon fill="#6c6b6b" className="h-6 w-6" />
