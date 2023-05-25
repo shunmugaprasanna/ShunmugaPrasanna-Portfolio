@@ -36,24 +36,6 @@ const Header = () => {
 
       {/* mobile nav */}
       <MenuOverlay navbarOpen={nav} onClick={() => setNav(!nav)} />
-      {/* {nav && (
-        <>
-          <nav
-            className="h-[20%] fixed top-[70px] right-[20px] flex flex-col justify-around items-center 
-         w-[40%] md:hidden bg-gradient-to-r from-violet-500 to-fuchsia-500 z-40 duration-1000 "
-          >
-            <a className="text-white font-semibold no-underline" href="#">
-              About
-            </a>
-            <a className="text-white font-semibold no-underline" href="#">
-              Projects
-            </a>
-            <a className="text-white font-semibold no-underline" href="#">
-              Contact
-            </a>
-          </nav>
-        </>
-      )} */}
     </div>
   );
 };

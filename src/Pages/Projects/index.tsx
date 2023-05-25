@@ -1,5 +1,5 @@
 import Cards from "../../Components/Cards";
-import { ExpensoIcon, FidioIcon } from "../../assets/Images";
+import { ExpensoIcon } from "../../assets/Images";
 
 const Project = () => {
   return (
@@ -26,14 +26,6 @@ const Project = () => {
           description="Expenso app allows you to monitor and categorize your expenses across different bank and investment accounts and credit cards. Some of these apps also offer 
           budgeting tools, credit monitoring, mileage tracking, receipt keeping, and advice to grow your net worth."
           src={ExpensoIcon}
-        />
-        <Cards
-          className="mb-4 h-full"
-          title="Fidio"
-          imagebg="bg-white"
-          // src="https://i.pinimg.com/originals/aa/88/6d/aa886d2003d09d9e049d3acc88b327fc.jpg"
-          src={FidioIcon}
-          description="Machine analytics software"
         />
       </div>
     </div>
