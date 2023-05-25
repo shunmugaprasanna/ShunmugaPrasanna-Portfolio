@@ -20,7 +20,6 @@ const Footer = () => {
         </span>
       </div>
 
-      {/* Insta and Linked Icon */}
       <div className="flex gap-5 flex-wrap items-center justify-center">
         <a
           href="https://instagram.com/prasannakannan97/"

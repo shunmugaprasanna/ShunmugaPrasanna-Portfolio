@@ -3,7 +3,7 @@ type MenuOverlayProps = { navbarOpen: boolean; onClick: () => void };
 const MenuOverlay = ({ navbarOpen, onClick }: MenuOverlayProps) => {
   return (
     <nav
-      className={`flex-col fixed items-center justify-center w-[180px] top-[90px] right-[20px] flex z-40 h-[200px] bg-black
+      className={`flex-col fixed items-center  w-[50%] top-[90px] right-0 flex z-40 h-[20%] bg-black
        text-white bg-opacity-100 transform delay-100 transition-all duration-300 ${
          navbarOpen
            ? "opacity-100 translate-x-0"

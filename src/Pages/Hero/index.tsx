@@ -2,7 +2,7 @@ import Button from "../../Components/Button";
 
 const Hero = () => {
   return (
-    <div className=" flex flex-col items-center justify-center relative px-4 md:px-0 h-screen ">
+    <div className=" flex flex-col items-center justify-center relative px-4 md:px-0 h-full ">
       <div className="absolute top-0 w-full h-[200px] bg-gradient-to-b from-black to-transparent "></div>
       <video
         className="z-[-1] absolute w-full h-full object-cover left-0 right-0 top-0 bottom-0 "
