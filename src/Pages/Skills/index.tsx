@@ -16,7 +16,7 @@ const Skills = () => {
           HTML
         </span>
         <span className="text-[#aeabab] text-xl font-bold flex flex-col items-center gap-3">
-          <Html
+          <Css
             fill="#6c6b6b"
             className="md:h-[100px] md:w-[100px]  h-[50px] w-[50px]"
           />
